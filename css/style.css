@@ -1,0 +1,133 @@
+:root{
+    --corum: #fd8f00;
+    --preto: #000000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    color: var(--corum);
+    font-family: 'Arial Black';
+    margin: 10px;
+    padding: 10px;
+    font-size: 35px;
+}
+header .logo .fa-solid{
+    padding: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:white;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: var(--corum);
+}
+
+/* filme principal */
+
+.filme-principal{
+    font-size:26px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/img2-top.jpg) no-repeat;
+    height: 400px;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+.titulo{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Arial';
+}
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    border: none;
+    color: rgba(0,0,0,.50)
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 30px;
+}
+.filme-principal .container{
+    width: 80%;
+}
+
+.carrosel-filmes{
+    margin-top: 30px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.filme-secundario{
+    font-size:26px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/img1.jpg) no-repeat;
+    height: 400px;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.carrosel-classicos{
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
