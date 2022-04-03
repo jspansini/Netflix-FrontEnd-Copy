@@ -12,4 +12,4 @@
 - Aprimoramento de conhecimentos em responsividade;
 
 
-<h4>Link funcional: </h4>
+<h4>Link funcional: https://badflixclone.vercel.app/ </h4>
